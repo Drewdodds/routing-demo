@@ -1,4 +1,4 @@
-export default function ReviewDetail({ 
+export default async function ReviewDetail({ 
     params 
 }:  {
     params: Promise<{ productId: string, reviewId: string}>;
